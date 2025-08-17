@@ -1,40 +1,30 @@
 var myName = "Hertzian Jay Cuervo";
-
 let myAge = "18";
-
 const PI = 3.1416;
-try {
-  PI = 3.14;
-} catch (error) {
-  console.error("Error when reassigning PI:", error.message);
-}
 
 let isStudent = parseInt(myAge) < 25;
 
 const person = {
-  name: {
-    firstName: "Hertzian Jay",
-    lastName: "Cuervo"
-  },
-  age: myAge,
-  isStudent: isStudent,
-  contact: {
-    email: "cuervohertzianjay@gmail.com",
-    phone: "N/A"
-  },
-  address: {
-    street: "Km. 8.5 Matina Pangi",
-    city: "Davao City",
-    country: "Philippines"
-  }
+    name: {
+        firstName: "Hertzian Jay",
+        lastName: "Cuervo"
+    },
+    age: myAge,
+    isStudent: isStudent,
+    contact: {
+        email: "cuervohertzianjay@gmail.com",
+        phone: "N/A"
+    },
+    address: {
+        street: "Km. 8.5 Matina Pangi",
+        city: "Davao City",
+        country: "Philippines"
+    }
 };
 
 const colors = ["black", "blue", "red", "green", "blue", "orange"];
 
-
-
-
- let words = ["apple", "banana", "cherry"];
+let words = ["apple", "banana", "cherry"];
 let transformedWords = [];
 
 for (let i = 0; i < words.length; i++) {
@@ -45,7 +35,6 @@ for (let i = 0; i < words.length; i++) {
     }
     transformedWords.push(reversedWord.toUpperCase());
 }
-
 
 let numbers = [12, 45, 67, 23, 90, 32, 11, 9, 28];
 let evenNumbersGreaterThan20 = [];
